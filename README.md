@@ -11,6 +11,13 @@ community.general
 Role Variables
 --------------
 
+* user: name of linux user
+* user_name: name associated with your github account
+* user_email: email associated with your github account
+* user_editor: name of default editor 
+* user_mergetool: name of defualt merge tool
+* user_conflictstyle: name of confilct style for default mergetool
+* user_mergetool_prompt: bool
 
 Dependencies
 ------------
