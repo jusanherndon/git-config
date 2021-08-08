@@ -30,7 +30,10 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - jusanherndon.git-config
+        vars_file:
+          - "variables/variables.yml"
+        - jusanherndon.git-config
+
 
 License
 -------
